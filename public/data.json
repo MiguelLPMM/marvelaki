@@ -1,0 +1,287 @@
+{
+  "universes": {
+    "earth-199999": {
+      "label": "MCU",
+      "earth": "Earth-199999",
+      "caption": "Marvel Cinematic Universe. Earth-199999, also called Earth-616 by the Baxter Foundation in Multiverse of Madness.",
+      "color": "#ffffff"
+    },
+    "earth-10005": {
+      "label": "X-Men (Fox)",
+      "earth": "Earth-10005",
+      "caption": "Fox's X-Men film series, spanning both its Original Timeline (pre-Days of Future Past) and the revised timeline that replaced it. The X-Men timeline is contradictory (and Deadpool does not help).",
+      "color": "#5b9ad5"
+    },
+    "earth-828": {
+      "label": "The Fantastic Four: First Steps",
+      "earth": "Earth-828",
+      "caption": "Earth-828, featured in The Fantastic Four: First Steps.",
+      "color": "#ffd966"
+    },
+    "earth-96283": {
+      "label": "Spider-Man (Raimi)",
+      "earth": "Earth-96283",
+      "caption": "Sam Raimi's original Spider-Man trilogy, starring Tobey Maguire.",
+      "color": "#c00000"
+    },
+    "earth-688b": {
+      "label": "Sony's Spider-Man Universe",
+      "earth": "Earth-688B",
+      "caption": "Sony's movies about Spider-Man-adjacent villains.",
+      "color": "#7030a0"
+    },
+    "earth-121698": {
+      "label": "Fantastic Four (2000s)",
+      "earth": "Earth-121698",
+      "caption": "The 2000s Fantastic Four film series, starring Ioan Gruffudd and Jessica Alba.",
+      "color": "#bf8f00"
+    },
+    "earth-120703": {
+      "label": "The Amazing Spider-Man",
+      "earth": "Earth-120703",
+      "caption": "Marc Webb's The Amazing Spider-Man duology, starring Andrew Garfield.",
+      "color": "#ff0000"
+    },
+    "shield": {
+      "label": "Pseudo-MCU",
+      "earth": "Earth-199999",
+      "caption": "Shows that were supposed to be in the MCU but ended up only maybe being in the MCU.",
+      "color": "#767171"
+    },
+    "earth-15866": {
+      "label": "Fantastic Four (2015)",
+      "earth": "Earth-15866",
+      "caption": "The 2015 Fantastic Four reboot, starring Miles Teller and Kate Mara.",
+      "color": "#ffc000"
+    },
+    "earth-trn1450": {
+      "label": "Your Friendly Neighborhood Spider-Man",
+      "earth": "Earth-TRN1450",
+      "caption": "The animated Disney+ series following a Peter Parker accompanied by Norman Osborn instead of Tony Stark.",
+      "color": "#843434"
+    },
+    "spider-verse": {
+      "label": "Spider-Verse",
+      "earth": "Multiversal",
+      "caption": "The animated, multiverse-hopping Spider-Man saga, starring Miles Morales and Gwen Stacy. Probably a different multiverse due to Earths 616 and 1610.",
+      "color": "#8a3434"
+    }
+  },
+
+  "types": {
+    "movie": { "label": "Movie", "icon": "film" },
+    "series": { "label": "Series", "icon": "tv" },
+    "short": { "label": "One Shot", "icon": "clapperboard" },
+    "special": { "label": "Special", "icon": "sparkles" }
+  },
+
+  "entries": [
+    { "id": "eyes-of-wakanda-1", "title": "Eyes of Wakanda (1)", "type": "series", "universe": "earth-199999", "date": "-1260", "period": "1260 B.C.", "releaseYear": 2025, "predecessors": [], "note": "" },
+    { "id": "eyes-of-wakanda-2", "title": "Eyes of Wakanda (2)", "type": "series", "universe": "earth-199999", "date": "-1200", "period": "1200 B.C.", "releaseYear": 2025, "predecessors": ["eyes-of-wakanda-1"], "note": "" },
+    { "id": "what-if-s2-7", "title": "What If...? Season 2 (7)", "type": "series", "universe": "earth-199999", "date": "900", "period": "Multiverse", "releaseYear": 2023, "predecessors": ["loki-s1", "thor-ragnarok", "shang-chi"], "note": "Before 960 A.D.." },
+    { "id": "eyes-of-wakanda-3", "title": "Eyes of Wakanda (3)", "type": "series", "universe": "earth-199999", "date": "1400", "period": "1400", "releaseYear": 2025, "predecessors": ["eyes-of-wakanda-1", "eyes-of-wakanda-2"], "note": "" },
+    { "id": "what-if-s2-6", "title": "What If...? Season 2 (6)", "type": "series", "universe": "earth-199999", "date": "1498", "period": "Multiverse", "releaseYear": 2023, "predecessors": ["loki-s1", "thor", "cap-first-avenger", "avengers"], "note": "Between 1492 and 1504." },
+    { "id": "what-if-s2-8", "title": "What If...? Season 2 (8)", "type": "series", "universe": "earth-199999", "date": "1602", "period": "Multiverse", "releaseYear": 2023, "predecessors": ["loki-s1", "what-if-s2-5", "infinity-war", "avengers", "thor", "thor-ragnarok", "dr-strange-mom", "ant-man", "cap-first-avenger", "black-panther", "what-if-s2-3", "wandavision"], "note": "" },
+    { "id": "what-if-s2-9", "title": "What If...? Season 2 (9)", "type": "series", "universe": "earth-199999", "date": "1602*", "period": "Outside Time", "releaseYear": 2023, "predecessors": ["loki-s1", "loki-s2", "what-if-s1-9", "what-if-s1-4", "what-if-s2-6", "what-if-s2-8", "what-if-s2-5", "what-if-s2-1", "what-if-s2-4", "what-if-s2-7"], "note": "Starts in 1602 but ends outside of time." },
+    { "id": "what-if-s3-6", "title": "What If...? Season 3 (6)", "type": "series", "universe": "earth-199999", "date": "1872", "period": "Multiverse", "releaseYear": 2024, "predecessors": ["loki-s1", "shang-chi", "hawkeye", "falcon-winter-soldier", "ant-man-wasp", "iron-man"], "note": "" },
+    { "id": "what-if-s3-7", "title": "What If...? Season 3 (7)", "type": "series", "universe": "earth-199999", "date": "1872*", "period": "Outside Time", "releaseYear": 2024, "predecessors": ["loki-s1", "what-if-s2-5", "guardians-2", "what-if-s1-1", "what-if-s1-8", "what-if-s1-9", "what-if-s2-5", "what-if-s2-6", "what-if-s2-8", "what-if-s2-9", "what-if-s3-4", "xmen-2000", "x2", "xmen-last-stand", "xmen-dofp", "xmen-apocalypse", "thor", "guardians-1"], "note": "" },
+    { "id": "what-if-s3-8", "title": "What If...? Season 3 (8)", "type": "series", "universe": "earth-199999", "date": "1872*", "period": "Outside Time", "releaseYear": 2024, "predecessors": ["loki-s1", "what-if-s2-5", "guardians-2", "what-if-s1-1", "what-if-s1-4", "what-if-s1-8", "what-if-s1-9", "what-if-s2-5", "what-if-s2-6", "what-if-s2-8", "what-if-s2-9", "what-if-s3-4", "what-if-s3-7", "loki-s2"], "note": "" },
+    { "id": "eyes-of-wakanda-4", "title": "Eyes of Wakanda (4)", "type": "series", "universe": "earth-199999", "date": "1896", "period": "1896", "releaseYear": 2025, "predecessors": ["eyes-of-wakanda-1", "eyes-of-wakanda-2", "eyes-of-wakanda-3"], "note": "Ending in 2016." },
+
+    { "id": "aos-s7-1-2", "title": "Marvel's Agents of S.H.I.E.L.D. Season 7 (1-2)", "type": "series", "universe": "shield", "date": "1931", "period": "February", "releaseYear": 2020, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22","aos-s2-1-2","aos-s2-3-6","aos-s2-7-10","aos-s2-11-18","aos-s2-19","aos-s2-20-22","aos-s3-1-10","aos-s3-11-18","aos-s3-19","aos-s3-20-22","aos-s4-1-8","aos-slingshot","aos-s4-9-22","aos-s5-1-4","aos-s5-5","aos-s5-6-10","aos-s5-11-13","aos-s5-14-22","aos-s6"], "note": "" },
+    { "id": "what-if-s3-2", "title": "What If...? Season 3 (2)", "type": "series", "universe": "earth-199999", "date": "1935", "period": "Multiverse", "releaseYear": 2024, "predecessors": ["loki-s1", "wandavision", "eternals", "cap-first-avenger", "agent-carter-oneshot", "agent-carter-s1", "agent-carter-s2"], "note": "" },
+
+    { "id": "cap-first-avenger", "title": "Captain America: The First Avenger", "type": "movie", "universe": "earth-199999", "date": "1943", "period": "1943", "releaseYear": 2011, "predecessors": ["iron-man-2"], "note": "" },
+    { "id": "what-if-s1-1", "title": "What If...? Season 1 (1)", "type": "series", "universe": "earth-199999", "date": "1943", "period": "Multiverse", "releaseYear": 2021, "predecessors": ["loki-s1", "cap-first-avenger"], "note": "" },
+    { "id": "agent-carter-oneshot", "title": "Agent Carter One Shot", "type": "short", "universe": "earth-199999", "date": "1946", "period": "March", "releaseYear": 2013, "predecessors": ["cap-first-avenger"], "note": "" },
+    { "id": "agent-carter-s1", "title": "Marvel's Agent Carter Season 1", "type": "series", "universe": "earth-199999", "date": "1946", "period": "Spring", "releaseYear": 2015, "predecessors": ["cap-first-avenger", "agent-carter-oneshot"], "note": "" },
+    { "id": "agent-carter-s2", "title": "Marvel's Agent Carter Season 2", "type": "series", "universe": "earth-199999", "date": "1947", "period": "Summer", "releaseYear": 2016, "predecessors": ["cap-first-avenger", "agent-carter-oneshot", "agent-carter-s1"], "note": "" },
+
+    { "id": "aos-s7-3-4", "title": "Marvel's Agents of S.H.I.E.L.D. Season 7 (3-4)", "type": "series", "universe": "shield", "date": "1955", "period": "July", "releaseYear": 2020, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22","aos-s2-1-2","aos-s2-3-6","aos-s2-7-10","aos-s2-11-18","aos-s2-19","aos-s2-20-22","aos-s3-1-10","aos-s3-11-18","aos-s3-19","aos-s3-20-22","aos-s4-1-8","aos-slingshot","aos-s4-9-22","aos-s5-1-4","aos-s5-5","aos-s5-6-10","aos-s5-11-13","aos-s5-14-22","aos-s6","aos-s7-1-2"], "note": "" },
+
+    { "id": "xmen-first-class", "title": "X-Men: First Class", "type": "movie", "universe": "earth-10005", "date": "1962", "period": "October", "releaseYear": 2011, "predecessors": [], "note": "" },
+    { "id": "ff-first-steps", "title": "The Fantastic Four: First Steps", "type": "movie", "universe": "earth-828", "date": "1964", "period": "1964", "releaseYear": 2025, "predecessors": [], "note": "Credit scene takes place in 1968" },
+
+    { "id": "xmen-dofp", "title": "X-Men: Days of Future Past", "type": "movie", "universe": "earth-10005", "date": "1973", "period": "January", "releaseYear": 2014, "predecessors": ["xmen-2000", "x2", "xmen-last-stand", "the-wolverine", "xmen-first-class"], "note": "Future in 2023. Creates alternate timeline." },
+    { "id": "aos-s7-5", "title": "Marvel's Agents of S.H.I.E.L.D. Season 7 (5)", "type": "series", "universe": "shield", "date": "1973", "period": "1973", "releaseYear": 2020, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22","aos-s2-1-2","aos-s2-3-6","aos-s2-7-10","aos-s2-11-18","aos-s2-19","aos-s2-20-22","aos-s3-1-10","aos-s3-11-18","aos-s3-19","aos-s3-20-22","aos-s4-1-8","aos-slingshot","aos-s4-9-22","aos-s5-1-4","aos-s5-5","aos-s5-6-10","aos-s5-11-13","aos-s5-14-22","aos-s6","aos-s7-1-2","aos-s7-3-4"], "note": "" },
+    { "id": "aos-s7-6", "title": "Marvel's Agents of S.H.I.E.L.D. Season 7 (6)", "type": "series", "universe": "shield", "date": "1976", "period": "July", "releaseYear": 2020, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22","aos-s2-1-2","aos-s2-3-6","aos-s2-7-10","aos-s2-11-18","aos-s2-19","aos-s2-20-22","aos-s3-1-10","aos-s3-11-18","aos-s3-19","aos-s3-20-22","aos-s4-1-8","aos-slingshot","aos-s4-9-22","aos-s5-1-4","aos-s5-5","aos-s5-6-10","aos-s5-11-13","aos-s5-14-22","aos-s6","aos-s7-1-2","aos-s7-3-4","aos-s7-5"], "note": "" },
+    { "id": "xmen-origins-wolverine", "title": "X-Men Origins: Wolverine", "type": "movie", "universe": "earth-10005", "date": "1979", "period": "March", "releaseYear": 2009, "predecessors": [], "note": "From 1845 to 1979. Original timeline." },
+
+    { "id": "xmen-apocalypse", "title": "X-Men: Apocalypse", "type": "movie", "universe": "earth-10005", "date": "1983", "period": "Spring", "releaseYear": 2016, "predecessors": ["xmen-first-class", "xmen-dofp"], "note": "New timeline." },
+    { "id": "aos-s7-7-12", "title": "Marvel's Agents of S.H.I.E.L.D. Season 7 (7-12)", "type": "series", "universe": "shield", "date": "1983", "period": "Fall", "releaseYear": 2020, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22","aos-s2-1-2","aos-s2-3-6","aos-s2-7-10","aos-s2-11-18","aos-s2-19","aos-s2-20-22","aos-s3-1-10","aos-s3-11-18","aos-s3-19","aos-s3-20-22","aos-s4-1-8","aos-slingshot","aos-s4-9-22","aos-s5-1-4","aos-s5-5","aos-s5-6-10","aos-s5-11-13","aos-s5-14-22","aos-s6","aos-s7-1-2","aos-s7-3-4","aos-s7-5","aos-s7-6"], "note": "Episode 9 takes place out of time." },
+    { "id": "what-if-s2-2", "title": "What If...? Season 2 (2)", "type": "series", "universe": "earth-199999", "date": "1988", "period": "Multiverse", "releaseYear": 2023, "predecessors": ["loki-s1", "guardians-1", "guardians-2", "captain-marvel", "ant-man", "ant-man-wasp", "civil-war", "black-panther", "cap-first-avenger", "cap-winter-soldier", "thor"], "note": "" },
+
+    { "id": "what-if-s3-3", "title": "What If...? Season 3 (3)", "type": "series", "universe": "earth-199999", "date": "1991", "period": "Multiverse", "releaseYear": 2024, "predecessors": ["loki-s1", "civil-war", "black-widow", "iron-man", "ant-man-wasp"], "note": "" },
+    { "id": "xmen-dark-phoenix", "title": "X-Men: Dark Phoenix", "type": "movie", "universe": "earth-10005", "date": "1992", "period": "May", "releaseYear": 2019, "predecessors": ["xmen-first-class", "xmen-dofp", "xmen-apocalypse"], "note": "New timeline." },
+    { "id": "captain-marvel", "title": "Captain Marvel", "type": "movie", "universe": "earth-199999", "date": "1995", "period": "June", "releaseYear": 2019, "predecessors": [], "note": "Post-credits scene after Infinity War." },
+
+    { "id": "xmen-2000", "title": "X-Men", "type": "movie", "universe": "earth-10005", "date": "2000", "period": "Fall", "releaseYear": 2000, "predecessors": ["xmen-first-class"], "note": "Original timeline." },
+
+    { "id": "spiderman-raimi", "title": "Spider-Man", "type": "movie", "universe": "earth-96283", "date": "2002", "period": "2002", "releaseYear": 2002, "predecessors": [], "note": "" },
+
+    { "id": "x2", "title": "X2: X-Men United", "type": "movie", "universe": "earth-10005", "date": "2003", "period": "Fall", "releaseYear": 2003, "predecessors": ["xmen-2000"], "note": "Original timeline." },
+    { "id": "madame-web", "title": "Madame Web", "type": "movie", "universe": "earth-688b", "date": "2003", "period": "June", "releaseYear": 2024, "predecessors": [], "note": "" },
+
+    { "id": "spiderman-raimi-2", "title": "Spider-Man 2", "type": "movie", "universe": "earth-96283", "date": "2004", "period": "Spring", "releaseYear": 2004, "predecessors": ["spiderman-raimi"], "note": "" },
+
+    { "id": "fantastic-four-2005", "title": "Fantastic Four", "type": "movie", "universe": "earth-121698", "date": "2005", "period": "Summer", "releaseYear": 2005, "predecessors": [], "note": "" },
+    { "id": "spiderman-raimi-3", "title": "Spider-Man 3", "type": "movie", "universe": "earth-96283", "date": "2005", "period": "Summer", "releaseYear": 2007, "predecessors": ["spiderman-raimi", "spiderman-raimi-2"], "note": "" },
+
+    { "id": "xmen-last-stand", "title": "X-Men: The Last Stand", "type": "movie", "universe": "earth-10005", "date": "2006", "period": "Spring", "releaseYear": 2006, "predecessors": ["xmen-2000", "x2"], "note": "Original timeline." },
+
+    { "id": "fantastic-four-silver-surfer", "title": "Fantastic Four: Rise of the Silver Surfer", "type": "movie", "universe": "earth-121698", "date": "2007", "period": "Summer", "releaseYear": 2007, "predecessors": ["fantastic-four-2005"], "note": "" },
+
+    { "id": "iron-man", "title": "Iron Man", "type": "movie", "universe": "earth-199999", "date": "2008", "period": "Spring", "releaseYear": 2008, "predecessors": [], "note": "Ignore the \"6 months after Iron Man\" in Iron Man 2." },
+    { "id": "what-if-s1-6", "title": "What If...? Season 1 (6)", "type": "series", "universe": "earth-199999", "date": "2008", "period": "Multiverse", "releaseYear": 2021, "predecessors": ["loki-s1", "iron-man", "black-panther"], "note": "" },
+    { "id": "what-if-s1-2", "title": "What If...? Season 1 (2)", "type": "series", "universe": "earth-199999", "date": "2008", "period": "Multiverse", "releaseYear": 2021, "predecessors": ["loki-s1", "black-panther", "guardians-1", "guardians-2"], "note": "" },
+
+    { "id": "iron-man-2", "title": "Iron Man 2", "type": "movie", "universe": "earth-199999", "date": "2011", "period": "Fury's Big Week", "releaseYear": 2010, "predecessors": ["iron-man"], "note": "" },
+    { "id": "incredible-hulk", "title": "The Incredible Hulk", "type": "movie", "universe": "earth-199999", "date": "2011", "period": "Fury's Big Week", "releaseYear": 2008, "predecessors": ["iron-man-2"], "note": "Post-credits scene after The Consultant One Shot." },
+    { "id": "thors-hammer-oneshot", "title": "A Funny Thing Happened on the Way to Thor's Hammer", "type": "short", "universe": "earth-199999", "date": "2011", "period": "Fury's Big Week", "releaseYear": 2011, "predecessors": ["iron-man-2"], "note": "" },
+    { "id": "thor", "title": "Thor", "type": "movie", "universe": "earth-199999", "date": "2011", "period": "Fury's Big Week", "releaseYear": 2011, "predecessors": ["iron-man-2", "thors-hammer-oneshot"], "note": "" },
+    { "id": "what-if-s1-7", "title": "What If...? Season 1 (7)", "type": "series", "universe": "earth-199999", "date": "2011", "period": "Multiverse", "releaseYear": 2021, "predecessors": ["loki-s1", "thor"], "note": "" },
+    { "id": "consultant-oneshot", "title": "The Consultant One Shot", "type": "short", "universe": "earth-199999", "date": "2011", "period": "Fury's Big Week", "releaseYear": 2011, "predecessors": ["thor", "incredible-hulk"], "note": "Before The Incredible Hulk's post-credits scene." },
+    { "id": "what-if-s1-3", "title": "What If...? Season 1 (3)", "type": "series", "universe": "earth-199999", "date": "2011", "period": "Multiverse", "releaseYear": 2021, "predecessors": ["loki-s1", "iron-man-2", "thor", "incredible-hulk", "ant-man"], "note": "" },
+    { "id": "what-if-s3-4", "title": "What If...? Season 3 (4)", "type": "series", "universe": "earth-199999", "date": "2011", "period": "Multiverse", "releaseYear": 2024, "predecessors": ["loki-s1", "what-if-s1-7", "thor-dark-world", "thor-ragnarok", "guardians-1", "doctor-strange", "thor-love-thunder", "infinity-war", "captain-marvel"], "note": "" },
+
+    { "id": "avengers", "title": "The Avengers", "type": "movie", "universe": "earth-199999", "date": "2012", "period": "May", "releaseYear": 2012, "predecessors": ["iron-man", "iron-man-2", "incredible-hulk", "thor", "cap-first-avenger"], "note": "" },
+    { "id": "what-if-s2-4", "title": "What If...? Season 2 (4)", "type": "series", "universe": "earth-199999", "date": "2012", "period": "Multiverse", "releaseYear": 2023, "predecessors": ["loki-s1", "what-if-s1-9", "thor-ragnarok", "avengers", "guardians-1"], "note": "" },
+    { "id": "item47-oneshot", "title": "Item 47 One Shot", "type": "short", "universe": "earth-199999", "date": "2012", "period": "May", "releaseYear": 2012, "predecessors": ["avengers"], "note": "" },
+    { "id": "amazing-spiderman", "title": "The Amazing Spider-Man", "type": "movie", "universe": "earth-120703", "date": "2012", "period": "Fall", "releaseYear": 2012, "predecessors": [], "note": "" },
+    { "id": "iron-man-3", "title": "Iron Man 3", "type": "movie", "universe": "earth-199999", "date": "2012", "period": "December", "releaseYear": 2013, "predecessors": ["iron-man", "iron-man-2", "avengers"], "note": "" },
+
+    { "id": "all-hail-the-king-oneshot", "title": "All Hail the King One Shot", "type": "short", "universe": "earth-199999", "date": "2013", "period": "Winter", "releaseYear": 2014, "predecessors": ["iron-man-3"], "note": "" },
+    { "id": "the-wolverine", "title": "The Wolverine", "type": "movie", "universe": "earth-10005", "date": "2013", "period": "Summer", "releaseYear": 2013, "predecessors": ["xmen-last-stand", "xmen-origins-wolverine"], "note": "Credit scene before Days of Future Past. Original timeline." },
+    { "id": "aos-s1-1-7", "title": "Marvel's Agents of S.H.I.E.L.D. Season 1 (1-7)", "type": "series", "universe": "shield", "date": "2013", "period": "Fall", "releaseYear": 2013, "predecessors": ["avengers"], "note": "" },
+    { "id": "thor-dark-world", "title": "Thor: The Dark World", "type": "movie", "universe": "earth-199999", "date": "2013", "period": "November", "releaseYear": 2013, "predecessors": ["thor", "avengers"], "note": "" },
+    { "id": "aos-s1-8-10", "title": "Marvel's Agents of S.H.I.E.L.D. Season 1 (8-10)", "type": "series", "universe": "shield", "date": "2013", "period": "Fall", "releaseYear": 2013, "predecessors": ["aos-s1-1-7", "thor-dark-world"], "note": "" },
+    { "id": "aos-s1-11-14", "title": "Marvel's Agents of S.H.I.E.L.D. Season 1 (11-14)", "type": "series", "universe": "shield", "date": "2013", "period": "Fall", "releaseYear": 2014, "predecessors": ["aos-s1-1-7", "aos-s1-8-10"], "note": "" },
+
+    { "id": "aos-s1-15-16", "title": "Marvel's Agents of S.H.I.E.L.D. Season 1 (15-16)", "type": "series", "universe": "shield", "date": "2014", "period": "Winter", "releaseYear": 2014, "predecessors": ["aos-s1-1-7", "aos-s1-8-10","aos-s1-11-14"], "note": "" },
+    { "id": "cap-winter-soldier", "title": "Captain America: The Winter Soldier", "type": "movie", "universe": "earth-199999", "date": "2014", "period": "March", "releaseYear": 2014, "predecessors": ["cap-first-avenger", "avengers"], "note": "" },
+    { "id": "what-if-s2-5", "title": "What If...? Season 2 (5)", "type": "series", "universe": "earth-199999", "date": "2014", "period": "Multiverse", "releaseYear": 2023, "predecessors": ["loki-s1", "what-if-s1-1", "what-if-s1-9", "cap-winter-soldier", "black-widow"], "note": "" },
+    { "id": "aos-s1-17-22", "title": "Marvel's Agents of S.H.I.E.L.D. Season 1 (17-22)", "type": "series", "universe": "shield", "date": "2014", "period": "Spring", "releaseYear": 2014, "predecessors": ["aos-s1-1-7", "aos-s1-8-10","aos-s1-11-14", "aos-s1-15-16", "cap-winter-soldier"], "note": "Episode 17 at the same time as Winter Soldier." },
+    { "id": "aos-s2-1-2", "title": "Marvel's Agents of S.H.I.E.L.D. Season 2 (1-2)", "type": "series", "universe": "shield", "date": "2014", "period": "May", "releaseYear": 2014, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22"], "note": "" },
+    { "id": "amazing-spiderman-2", "title": "The Amazing Spider-Man 2", "type": "movie", "universe": "earth-120703", "date": "2014", "period": "2014", "releaseYear": 2014, "predecessors": ["amazing-spiderman"], "note": "Starts at the end of the 2013/14 year, and goes until the end of the year. The end of the movie is in early 2015, after a 5 month jump." },
+    { "id": "guardians-1", "title": "Guardians of the Galaxy", "type": "movie", "universe": "earth-199999", "date": "2014", "period": "August", "releaseYear": 2014, "predecessors": [], "note": "" },
+    { "id": "i-am-groot-s1-1", "title": "I Am Groot Season 1 (Episode 1)", "type": "series", "universe": "earth-199999", "date": "2014", "period": "September", "releaseYear": 2022, "predecessors": ["guardians-1"], "note": "" },
+    { "id": "guardians-2", "title": "Guardians of the Galaxy Vol. 2", "type": "movie", "universe": "earth-199999", "date": "2014", "period": "October", "releaseYear": 2017, "predecessors": ["guardians-1", "i-am-groot-s1-1"], "note": "" },
+    { "id": "i-am-groot-s1-2-6", "title": "I Am Groot Season 1 (Episodes 2-6)", "type": "series", "universe": "earth-199999", "date": "2014", "period": "October", "releaseYear": 2022, "predecessors": ["guardians-1", "i-am-groot-s1-1", "guardians-2"], "note": "" },
+    { "id": "i-am-groot-s2", "title": "I Am Groot Season 2", "type": "series", "universe": "earth-199999", "date": "2014", "period": "November", "releaseYear": 2023, "predecessors": ["guardians-1", "i-am-groot-s1-1", "guardians-2", "i-am-groot-s1-2-6"], "note": "" },
+    { "id": "daredevil-s1", "title": "Daredevil Season 1", "type": "series", "universe": "earth-199999", "date": "2014", "period": "Fall", "releaseYear": 2015, "predecessors": [], "note": "" },
+    { "id": "aos-s2-3-6", "title": "Marvel's Agents of S.H.I.E.L.D. Season 2 (3-6)", "type": "series", "universe": "shield", "date": "2014", "period": "Fall", "releaseYear": 2014, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22","aos-s2-1-2"], "note": "" },
+    { "id": "what-if-s2-3", "title": "What If...? Season 2 (3)", "type": "series", "universe": "earth-199999", "date": "2014", "period": "Multiverse", "releaseYear": 2023, "predecessors": ["loki-s1", "iron-man-2", "iron-man-3", "aou"], "note": "" },
+
+    { "id": "jessica-jones-s1", "title": "Jessica Jones Season 1", "type": "series", "universe": "earth-199999", "date": "2015", "period": "Spring", "releaseYear": 2015, "predecessors": ["daredevil-s1"], "note": "" },
+    { "id": "aos-s2-7-10", "title": "Marvel's Agents of S.H.I.E.L.D. Season 2 (7-10)", "type": "series", "universe": "shield", "date": "2015", "period": "Spring", "releaseYear": 2014, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22","aos-s2-1-2","aos-s2-3-6"], "note": "" },
+    { "id": "aos-s2-11-18", "title": "Marvel's Agents of S.H.I.E.L.D. Season 2 (11-18)", "type": "series", "universe": "shield", "date": "2015", "period": "Spring", "releaseYear": 2015, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22","aos-s2-1-2","aos-s2-3-6","aos-s2-7-10"], "note": "" },
+    { "id": "aos-s2-19", "title": "Marvel's Agents of S.H.I.E.L.D. Season 2 (19)", "type": "series", "universe": "shield", "date": "2015", "period": "April", "releaseYear": 2015, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22","aos-s2-1-2","aos-s2-3-6","aos-s2-7-10","aos-s2-11-18"], "note": "" },
+    { "id": "aou", "title": "Avengers: Age of Ultron", "type": "movie", "universe": "earth-199999", "date": "2015", "period": "Spring", "releaseYear": 2015, "predecessors": ["avengers", "iron-man-3", "thor-dark-world", "cap-winter-soldier", "aos-s2-19"], "note": "" },
+    { "id": "what-if-s1-8", "title": "What If...? Season 1 (8)", "type": "series", "universe": "earth-199999", "date": "2015", "period": "Multiverse", "releaseYear": 2021, "predecessors": ["loki-s1", "aou", "infinity-war"], "note": "" },
+    { "id": "what-if-s1-9", "title": "What If...? Season 1 (9)", "type": "series", "universe": "earth-199999", "date": "2015", "period": "Multiverse", "releaseYear": 2021, "predecessors": ["loki-s1", "what-if-s1-1", "what-if-s1-2", "what-if-s1-3", "what-if-s1-4", "what-if-s1-5", "what-if-s1-6", "what-if-s1-7", "what-if-s1-8"], "note": "" },
+    { "id": "aos-s2-20-22", "title": "Marvel's Agents of S.H.I.E.L.D. Season 2 (20-22)", "type": "series", "universe": "shield", "date": "2015", "period": "May", "releaseYear": 2015, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22","aos-s2-1-2","aos-s2-3-6","aos-s2-7-10","aos-s2-11-18","aos-s2-19", "aou"], "note": "" },
+    { "id": "ant-man", "title": "Ant-Man", "type": "movie", "universe": "earth-199999", "date": "2015", "period": "Summer", "releaseYear": 2015, "predecessors": ["cap-winter-soldier", "aou", "iron-man-3"], "note": "" },
+    { "id": "fantastic-four-2015", "title": "Fantastic Four", "type": "movie", "universe": "earth-15866", "date": "2015", "period": "2015", "releaseYear": 2015, "predecessors": [], "note": "" },
+    { "id": "daredevil-s2", "title": "Daredevil Season 2", "type": "series", "universe": "earth-199999", "date": "2015", "period": "Fall", "releaseYear": 2016, "predecessors": ["daredevil-s1", "jessica-jones-s1"], "note": "" },
+    { "id": "luke-cage-s1", "title": "Luke Cage Season 1", "type": "series", "universe": "earth-199999", "date": "2015", "period": "Fall", "releaseYear": 2016, "predecessors": ["daredevil-s1", "jessica-jones-s1", "daredevil-s2"], "note": "" },
+    { "id": "aos-s3-1-10", "title": "Marvel's Agents of S.H.I.E.L.D. Season 3 (1-10)", "type": "series", "universe": "shield", "date": "2015", "period": "Fall", "releaseYear": 2015, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22","aos-s2-1-2","aos-s2-3-6","aos-s2-7-10","aos-s2-11-18","aos-s2-19","aos-s2-20-22"], "note": "" },
+
+    { "id": "deadpool", "title": "Deadpool", "type": "movie", "universe": "earth-10005", "date": "2016", "period": "February", "releaseYear": 2016, "predecessors": ["xmen-2000", "x2", "xmen-last-stand", "xmen-origins-wolverine", "xmen-first-class"], "note": "New timeline but Deadpool is a meta-character." },
+    { "id": "iron-fist-s1", "title": "Iron Fist Season 1", "type": "series", "universe": "earth-199999", "date": "2016", "period": "Winter", "releaseYear": 2017, "predecessors": ["daredevil-s1", "jessica-jones-s1", "daredevil-s2", "luke-cage-s1"], "note": "" },
+    { "id": "aos-s3-11-18", "title": "Marvel's Agents of S.H.I.E.L.D. Season 3 (11-18)", "type": "series", "universe": "shield", "date": "2016", "period": "Spring", "releaseYear": 2016, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22","aos-s2-1-2","aos-s2-3-6","aos-s2-7-10","aos-s2-11-18","aos-s2-19","aos-s2-20-22","aos-s3-1-10"], "note": "" },
+    { "id": "the-defenders", "title": "The Defenders", "type": "series", "universe": "earth-199999", "date": "2016", "period": "May", "releaseYear": 2017, "predecessors": ["daredevil-s1", "jessica-jones-s1", "daredevil-s2", "luke-cage-s1", "iron-fist-s1"], "note": "" },
+    { "id": "aos-s3-19", "title": "Marvel's Agents of S.H.I.E.L.D. Season 3 (19)", "type": "series", "universe": "shield", "date": "2016", "period": "Spring", "releaseYear": 2016, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22","aos-s2-1-2","aos-s2-3-6","aos-s2-7-10","aos-s2-11-18","aos-s2-19","aos-s2-20-22","aos-s3-1-10","aos-s3-11-18"], "note": "" },
+    { "id": "civil-war", "title": "Captain America: Civil War", "type": "movie", "universe": "earth-199999", "date": "2016", "period": "Spring", "releaseYear": 2016, "predecessors": ["cap-first-avenger", "cap-winter-soldier", "avengers", "aou", "ant-man"], "note": "" },
+    { "id": "yfnsm-s1", "title": "Your Friendly Neighborhood Spider-Man Season 1", "type": "series", "universe": "earth-trn1450", "date": "2016", "period": "2016", "releaseYear": 2025, "predecessors": ["doctor-strange", "daredevil-s1", "daredevil-s2"], "note": "" },
+    { "id": "team-thor-oneshot", "title": "Team Thor One Shot", "type": "short", "universe": "earth-199999", "date": "2016", "period": "June", "releaseYear": 2016, "predecessors": ["civil-war", "aou", "thor", "thor-dark-world"], "note": "" },
+    { "id": "aos-s3-20-22", "title": "Marvel's Agents of S.H.I.E.L.D. Season 3 (20-22)", "type": "series", "universe": "shield", "date": "2016", "period": "Spring", "releaseYear": 2016, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22","aos-s2-1-2","aos-s2-3-6","aos-s2-7-10","aos-s2-11-18","aos-s2-19","aos-s2-20-22","aos-s3-1-10","aos-s3-11-18","aos-s3-19", "civil-war"], "note": "Last scene 6 months later, at the end of 2016." },
+    { "id": "black-widow", "title": "Black Widow", "type": "movie", "universe": "earth-199999", "date": "2016", "period": "June", "releaseYear": 2021, "predecessors": ["civil-war", "iron-man-2", "avengers", "cap-winter-soldier", "aou", "falcon-winter-soldier"], "note": "Post-credits scene after Endgame." },
+    { "id": "black-panther", "title": "Black Panther", "type": "movie", "universe": "earth-199999", "date": "2016", "period": "Summer", "releaseYear": 2018, "predecessors": ["civil-war"], "note": "" },
+    { "id": "inhumans", "title": "Inhumans", "type": "series", "universe": "shield", "date": "2016", "period": "August", "releaseYear": 2017, "predecessors": ["civil-war"], "note": "" },
+    { "id": "spiderman-homecoming", "title": "Spider-Man: Homecoming", "type": "movie", "universe": "earth-199999", "date": "2016", "period": "September", "releaseYear": 2017, "predecessors": ["civil-war"], "note": "" },
+    { "id": "aos-slingshot", "title": "Marvel's Agents of S.H.I.E.L.D.: Slingshot", "type": "series", "universe": "shield", "date": "2016", "period": "September", "releaseYear": 2016, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22","aos-s2-1-2","aos-s2-3-6","aos-s2-7-10","aos-s2-11-18","aos-s2-19","aos-s2-20-22","aos-s3-1-10","aos-s3-11-18","aos-s3-19","aos-s3-20-22","aos-s4-1-8"], "note": "See between episodes 4x08 and 4x09 because it might spoiler episodes 4x01-4x08." },
+    { "id": "team-thor-2-oneshot", "title": "Team Thor: Part 2 One Shot", "type": "short", "universe": "earth-199999", "date": "2016", "period": "November", "releaseYear": 2017, "predecessors": ["team-thor-oneshot", "civil-war", "aou", "thor", "thor-dark-world"], "note": "" },
+    { "id": "punisher-s1", "title": "The Punisher Season 1", "type": "series", "universe": "earth-199999", "date": "2016", "period": "Fall", "releaseYear": 2017, "predecessors": ["daredevil-s2", "the-defenders"], "note": "" },
+
+    { "id": "doctor-strange", "title": "Doctor Strange", "type": "movie", "universe": "earth-199999", "date": "2017", "period": "Winter", "releaseYear": 2016, "predecessors": [], "note": "" },
+    { "id": "what-if-s1-4", "title": "What If...? Season 1 (4)", "type": "series", "universe": "earth-199999", "date": "2017", "period": "Multiverse", "releaseYear": 2021, "predecessors": ["loki-s1", "doctor-strange"], "note": "" },
+    { "id": "aos-s4-1-8", "title": "Marvel's Agents of S.H.I.E.L.D. Season 4 (1-8)", "type": "series", "universe": "shield", "date": "2017", "period": "Spring", "releaseYear": 2016, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22","aos-s2-1-2","aos-s2-3-6","aos-s2-7-10","aos-s2-11-18","aos-s2-19","aos-s2-20-22","aos-s3-1-10","aos-s3-11-18","aos-s3-19","aos-s3-20-22", "doctor-strange"], "note": "" },
+    { "id": "aos-s4-9-22", "title": "Marvel's Agents of S.H.I.E.L.D. Season 4 (9-22)", "type": "series", "universe": "shield", "date": "2017", "period": "Spring", "releaseYear": 2017, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22","aos-s2-1-2","aos-s2-3-6","aos-s2-7-10","aos-s2-11-18","aos-s2-19","aos-s2-20-22","aos-s3-1-10","aos-s3-11-18","aos-s3-19","aos-s3-20-22","aos-s4-1-8","aos-slingshot"], "note": "" },
+    { "id": "jessica-jones-s2", "title": "Jessica Jones Season 2", "type": "series", "universe": "earth-199999", "date": "2017", "period": "2017", "releaseYear": 2018, "predecessors": ["daredevil-s1", "jessica-jones-s1", "daredevil-s2", "luke-cage-s1", "iron-fist-s1", "the-defenders", "civil-war"], "note": "" },
+    { "id": "new-mutants", "title": "The New Mutants", "type": "movie", "universe": "earth-10005", "date": "2017", "period": "Summer", "releaseYear": 2020, "predecessors": ["logan"], "note": "" },
+    { "id": "luke-cage-s2", "title": "Luke Cage Season 2", "type": "series", "universe": "earth-199999", "date": "2017", "period": "Summer", "releaseYear": 2018, "predecessors": ["daredevil-s1", "jessica-jones-s1", "daredevil-s2", "luke-cage-s1", "iron-fist-s1", "the-defenders"], "note": "" },
+    { "id": "iron-fist-s2", "title": "Iron Fist Season 2", "type": "series", "universe": "earth-199999", "date": "2017", "period": "Fall", "releaseYear": 2018, "predecessors": ["daredevil-s1", "jessica-jones-s1", "daredevil-s2", "luke-cage-s1", "iron-fist-s1", "the-defenders", "luke-cage-s2", "aou"], "note": "" },
+    { "id": "daredevil-s3", "title": "Daredevil Season 3", "type": "series", "universe": "earth-199999", "date": "2017", "period": "Fall", "releaseYear": 2018, "predecessors": ["daredevil-s1", "jessica-jones-s1", "daredevil-s2", "luke-cage-s1", "iron-fist-s1", "the-defenders", "punisher-s1", "jessica-jones-s2", "luke-cage-s2"], "note": "" },
+    { "id": "aos-s5-5", "title": "Marvel's Agents of S.H.I.E.L.D. Season 5 (5)", "type": "series", "universe": "shield", "date": "2017", "period": "2017", "releaseYear": 2017, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22","aos-s2-1-2","aos-s2-3-6","aos-s2-7-10","aos-s2-11-18","aos-s2-19","aos-s2-20-22","aos-s3-1-10","aos-s3-11-18","aos-s3-19","aos-s3-20-22","aos-s4-1-8","aos-slingshot","aos-s4-9-22","aos-s5-1-4"], "note": "The rest of the season takes place in the future." },
+    { "id": "thor-ragnarok", "title": "Thor: Ragnarok", "type": "movie", "universe": "earth-199999", "date": "2017", "period": "November", "releaseYear": 2017, "predecessors": ["thor", "thor-dark-world", "avengers", "aou", "doctor-strange"], "note": "" },
+    { "id": "team-darryl-oneshot", "title": "Team Darryl One Shot", "type": "short", "universe": "earth-199999", "date": "2017", "period": "Winter", "releaseYear": 2017, "predecessors": ["team-thor-oneshot", "team-thor-2-oneshot", "thor-ragnarok"], "note": "" },
+    { "id": "aos-s5-11-13", "title": "Marvel's Agents of S.H.I.E.L.D. Season 5 (11-13)", "type": "series", "universe": "shield", "date": "2017", "period": "December", "releaseYear": 2018, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22","aos-s2-1-2","aos-s2-3-6","aos-s2-7-10","aos-s2-11-18","aos-s2-19","aos-s2-20-22","aos-s3-1-10","aos-s3-11-18","aos-s3-19","aos-s3-20-22","aos-s4-1-8","aos-slingshot","aos-s4-9-22","aos-s5-1-4","aos-s5-5","aos-s5-6-10", "thor-ragnarok"], "note": "Episode 11 concurrent with Ragnarok" },
+
+    { "id": "punisher-s2", "title": "The Punisher Season 2", "type": "series", "universe": "earth-199999", "date": "2018", "period": "Spring", "releaseYear": 2019, "predecessors": ["punisher-s1", "daredevil-s1", "daredevil-s2", "daredevil-s3"], "note": "" },
+    { "id": "jessica-jones-s3", "title": "Jessica Jones Season 3", "type": "series", "universe": "earth-199999", "date": "2018", "period": "Spring", "releaseYear": 2019, "predecessors": ["daredevil-s1", "jessica-jones-s1", "daredevil-s2", "luke-cage-s1", "iron-fist-s1", "the-defenders", "jessica-jones-s2", "luke-cage-s2", "iron-fist-s2", "civil-war"], "note": "" },
+    { "id": "ant-man-wasp", "title": "Ant-Man and The Wasp", "type": "movie", "universe": "earth-199999", "date": "2018", "period": "May", "releaseYear": 2018, "predecessors": ["ant-man", "civil-war", "infinity-war"], "note": "Concurrent with Infinity War. Post-Credits scene is after Infinity War." },
+    { "id": "aos-s5-14-22", "title": "Marvel's Agents of S.H.I.E.L.D. Season 5 (14-22)", "type": "series", "universe": "shield", "date": "2018", "period": "May", "releaseYear": 2018, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22","aos-s2-1-2","aos-s2-3-6","aos-s2-7-10","aos-s2-11-18","aos-s2-19","aos-s2-20-22","aos-s3-1-10","aos-s3-11-18","aos-s3-19","aos-s3-20-22","aos-s4-1-8","aos-slingshot","aos-s4-9-22","aos-s5-1-4","aos-s5-5","aos-s5-6-10","aos-s5-11-13"], "note": "Episodes 19-22 concurrent with Infinity War" },
+    { "id": "infinity-war", "title": "Avengers: Infinity War", "type": "movie", "universe": "earth-199999", "date": "2018", "period": "May", "releaseYear": 2018, "predecessors": ["avengers", "aou", "civil-war", "doctor-strange", "thor-ragnarok", "spiderman-homecoming", "guardians-1", "guardians-2", "black-panther"], "note": "" },
+    { "id": "what-if-s1-5", "title": "What If...? Season 1 (5)", "type": "series", "universe": "earth-199999", "date": "2018", "period": "Multiverse", "releaseYear": 2021, "predecessors": ["loki-s1", "infinity-war", "ant-man-wasp"], "note": "" },
+    { "id": "deadpool-2", "title": "Deadpool 2", "type": "movie", "universe": "earth-10005", "date": "2018", "period": "Spring", "releaseYear": 2018, "predecessors": ["deadpool", "xmen-apocalypse", "logan"], "note": "New timeline but Deadpool is a meta-character. Features the X-Men from X-Men: Apocalypse and a toy based on Logan. Deadpool travels in time at the end." },
+    { "id": "venom", "title": "Venom", "type": "movie", "universe": "earth-688b", "date": "2018", "period": "2018", "releaseYear": 2018, "predecessors": [], "note": "" },
+    { "id": "into-spiderverse", "title": "Spider-Man: Into the Spider-Verse", "type": "movie", "universe": "spider-verse", "date": "2018", "period": "March", "releaseYear": 2018, "predecessors": [], "note": "" },
+
+    { "id": "morbius", "title": "Morbius", "type": "movie", "universe": "earth-688b", "date": "2019", "period": "June", "releaseYear": 2022, "predecessors": ["venom", "venom-let-there-be-carnage", "no-way-home", "spiderman-homecoming"], "note": "" },
+    { "id": "aos-s6", "title": "Marvel's Agents of S.H.I.E.L.D. Season 6", "type": "series", "universe": "shield", "date": "2019", "period": "June", "releaseYear": 2019, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22","aos-s2-1-2","aos-s2-3-6","aos-s2-7-10","aos-s2-11-18","aos-s2-19","aos-s2-20-22","aos-s3-1-10","aos-s3-11-18","aos-s3-19","aos-s3-20-22","aos-s4-1-8","aos-slingshot","aos-s4-9-22","aos-s5-1-4","aos-s5-5","aos-s5-6-10","aos-s5-11-13","aos-s5-14-22"], "note": "" },
+    { "id": "aos-s7-13", "title": "Marvel's Agents of S.H.I.E.L.D. Season 7 (13)", "type": "series", "universe": "shield", "date": "2019", "period": "July", "releaseYear": 2020, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22","aos-s2-1-2","aos-s2-3-6","aos-s2-7-10","aos-s2-11-18","aos-s2-19","aos-s2-20-22","aos-s3-1-10","aos-s3-11-18","aos-s3-19","aos-s3-20-22","aos-s4-1-8","aos-slingshot","aos-s4-9-22","aos-s5-1-4","aos-s5-5","aos-s5-6-10","aos-s5-11-13","aos-s5-14-22","aos-s6","aos-s7-1-2","aos-s7-3-4","aos-s7-5","aos-s7-6","aos-s7-7-12"], "note": "The rest of the season takes place in the past." },
+    { "id": "what-if-s2-1", "title": "What If...? Season 2 (1)", "type": "series", "universe": "earth-199999", "date": "2019", "period": "Multiverse", "releaseYear": 2023, "predecessors": ["loki-s1", "guardians-1", "captain-marvel", "thor-ragnarok"], "note": "" },
+
+    { "id": "across-spiderverse", "title": "Spider-Man: Across the Spider-Verse", "type": "movie", "universe": "spider-verse", "date": "2020", "period": "April", "releaseYear": 2023, "predecessors": ["into-spiderverse"], "note": "" },
+    { "id": "venom-let-there-be-carnage", "title": "Venom: Let There Be Carnage", "type": "movie", "universe": "earth-688b", "date": "2020", "period": "Fall", "releaseYear": 2021, "predecessors": ["venom", "far-from-home"], "note": "Post-credits scene on another universe. It is 2024 there." },
+
+    { "id": "marvel-zombies", "title": "Marvel Zombies", "type": "series", "universe": "earth-199999", "date": "2023", "period": "Multiverse", "releaseYear": 2025, "predecessors": ["what-if-s1-5"], "note": "" },
+    { "id": "endgame", "title": "Avengers: Endgame", "type": "movie", "universe": "earth-199999", "date": "2023", "period": "October", "releaseYear": 2019, "predecessors": ["avengers", "aou", "infinity-war", "civil-war", "ant-man-wasp", "captain-marvel", "thor-dark-world", "cap-first-avenger", "agent-carter-oneshot", "agent-carter-s1", "agent-carter-s2", "guardians-1", "black-panther", "doctor-strange", "spiderman-homecoming", "iron-man-3"], "note": "Starts in 2018 but the main events take place in 2023." },
+    { "id": "loki-s1", "title": "Loki Season 1", "type": "series", "universe": "earth-199999", "date": "2023*", "period": "TVA", "releaseYear": 2021, "predecessors": ["endgame", "thor", "avengers", "thor-dark-world"], "note": "Loki variant from the Time Heist to 2012 Avengers. Involves time travel but most of the show takes place in the TVA (outside time)." },
+    { "id": "loki-s2", "title": "Loki Season 2", "type": "series", "universe": "earth-199999", "date": "2023*", "period": "TVA", "releaseYear": 2023, "predecessors": ["loki-s1", "ant-man-wasp-quantumania"], "note": "Loki variant from the Time Heist to 2012 Avengers. Involves time travel but most of the show takes place in the TVA (outside time)." },
+    { "id": "wandavision", "title": "WandaVision", "type": "series", "universe": "earth-199999", "date": "2023", "period": "November", "releaseYear": 2021, "predecessors": ["endgame", "civil-war", "aou", "ant-man-wasp", "captain-marvel", "thor", "thor-dark-world", "xmen-dofp", "xmen-apocalypse"], "note": "" },
+
+    { "id": "what-if-s3-1", "title": "What If...? Season 3 (1)", "type": "series", "universe": "earth-199999", "date": "2024", "period": "Multiverse", "releaseYear": 2024, "predecessors": ["loki-s1", "incredible-hulk", "cap-winter-soldier", "falcon-winter-soldier", "avengers", "infinity-war", "shang-chi", "wandavision", "moon-knight", "black-widow"], "note": "" },
+    { "id": "shang-chi", "title": "Shang-Chi and the Legend of the Ten Rings", "type": "movie", "universe": "earth-199999", "date": "2024", "period": "Spring", "releaseYear": 2021, "predecessors": ["iron-man-3", "endgame", "incredible-hulk", "doctor-strange", "dr-strange-mom"], "note": "" },
+    { "id": "falcon-winter-soldier", "title": "The Falcon and The Winter Soldier", "type": "series", "universe": "earth-199999", "date": "2024", "period": "Spring", "releaseYear": 2021, "predecessors": ["cap-first-avenger", "cap-winter-soldier", "civil-war", "endgame", "black-panther"], "note": "" },
+    { "id": "far-from-home", "title": "Spider-Man: Far From Home", "type": "movie", "universe": "earth-199999", "date": "2024", "period": "Summer", "releaseYear": 2019, "predecessors": ["endgame", "infinity-war", "civil-war", "spiderman-homecoming", "captain-marvel", "iron-man", "iron-man-2", "avengers", "cap-winter-soldier", "aou"], "note": "" },
+    { "id": "eternals", "title": "Eternals", "type": "movie", "universe": "earth-199999", "date": "2024", "period": "Fall", "releaseYear": 2021, "predecessors": ["infinity-war", "endgame"], "note": "" },
+    { "id": "deadpool-wolverine", "title": "Deadpool & Wolverine", "type": "movie", "universe": "earth-10005", "date": "2024", "period": "October", "releaseYear": 2024, "predecessors": ["deadpool", "deadpool-2", "loki-s1", "loki-s2", "xmen-2000", "x2", "xmen-last-stand"], "note": "Starts in 2018 after Deadpool 2. Features the MCU, the TVA, and The Void." },
+    { "id": "no-way-home", "title": "Spider-Man: No Way Home", "type": "movie", "universe": "earth-199999", "date": "2024", "period": "Fall", "releaseYear": 2021, "predecessors": ["spiderman-homecoming", "far-from-home", "infinity-war", "endgame", "doctor-strange", "spiderman-raimi", "spiderman-raimi-2", "spiderman-raimi-3", "amazing-spiderman", "amazing-spiderman-2", "daredevil-s1", "daredevil-s2", "daredevil-s3"], "note": "" },
+    { "id": "dr-strange-mom", "title": "Doctor Strange in the Multiverse of Madness", "type": "movie", "universe": "earth-199999", "date": "2024", "period": "November", "releaseYear": 2022, "predecessors": ["doctor-strange", "no-way-home", "wandavision", "infinity-war", "endgame", "xmen-2000", "x2", "xmen-last-stand", "xmen-dofp", "inhumans", "captain-marvel", "what-if-s1-1"], "note": "" },
+    { "id": "hawkeye", "title": "Hawkeye", "type": "series", "universe": "earth-199999", "date": "2024", "period": "Winter", "releaseYear": 2021, "predecessors": ["endgame", "black-widow", "civil-war", "aou", "avengers", "thor", "daredevil-s1", "daredevil-s2", "daredevil-s3", "ant-man", "ant-man-wasp", "infinity-war"], "note": "" },
+
+    { "id": "moon-knight", "title": "Moon Knight", "type": "series", "universe": "earth-199999", "date": "2025", "period": "Spring", "releaseYear": 2022, "predecessors": ["falcon-winter-soldier", "black-panther"], "note": "" },
+    { "id": "wakanda-forever", "title": "Black Panther: Wakanda Forever", "type": "movie", "universe": "earth-199999", "date": "2025", "period": "Spring", "releaseYear": 2022, "predecessors": ["black-panther", "civil-war", "infinity-war", "endgame", "thor-love-thunder", "eternals", "falcon-winter-soldier", "black-widow"], "note": "" },
+    { "id": "what-if-s3-5", "title": "What If...? Season 3 (5)", "type": "series", "universe": "earth-199999", "date": "2024", "period": "Multiverse", "releaseYear": 2024, "predecessors": ["loki-s1", "eternals", "far-from-home", "wakanda-forever", "falcon-winter-soldier", "thor-love-thunder", "dr-strange-mom", "shang-chi"], "note": "Emergence happened around 2018. Takes place years after that, mid-2020s." },
+    { "id": "echo", "title": "Echo", "type": "series", "universe": "earth-199999", "date": "2025", "period": "Spring", "releaseYear": 2024, "predecessors": ["hawkeye", "daredevil-s1", "daredevil-s2", "daredevil-s3"], "note": "" },
+    { "id": "she-hulk", "title": "She-Hulk: Attorney at Law", "type": "series", "universe": "earth-199999", "date": "2025", "period": "Summer", "releaseYear": 2022, "predecessors": ["incredible-hulk", "avengers", "aou", "thor-ragnarok", "infinity-war", "endgame", "daredevil-s1", "daredevil-s2", "daredevil-s3", "eternals", "shang-chi", "doctor-strange", "dr-strange-mom"], "note": "" },
+    { "id": "ms-marvel", "title": "Ms. Marvel", "type": "series", "universe": "earth-199999", "date": "2025", "period": "Fall", "releaseYear": 2022, "predecessors": ["captain-marvel", "endgame", "spiderman-homecoming", "no-way-home"], "note": "" },
+    { "id": "ironheart", "title": "Ironheart", "type": "series", "universe": "earth-199999", "date": "2025", "period": "Fall", "releaseYear": 2025, "predecessors": ["wakanda-forever", "iron-man", "iron-man-2", "iron-man-3", "civil-war"], "note": "" },
+    { "id": "thor-love-thunder", "title": "Thor: Love and Thunder", "type": "movie", "universe": "earth-199999", "date": "2025", "period": "Fall", "releaseYear": 2022, "predecessors": ["thor", "thor-dark-world", "thor-ragnarok", "avengers", "aou", "infinity-war", "endgame", "black-panther", "eternals", "wandavision"], "note": "" },
+    { "id": "werewolf-by-night", "title": "Werewolf by Night", "type": "special", "universe": "earth-199999", "date": "2025", "period": "October", "releaseYear": 2022, "predecessors": [], "note": "" },
+    { "id": "guardians-holiday-special", "title": "The Guardians of The Galaxy: Holiday Special", "type": "special", "universe": "earth-199999", "date": "2025", "period": "December", "releaseYear": 2022, "predecessors": ["guardians-1", "guardians-2", "infinity-war", "endgame", "thor-love-thunder"], "note": "" },
+
+    { "id": "ant-man-wasp-quantumania", "title": "Ant-Man and the Wasp: Quantumania", "type": "movie", "universe": "earth-199999", "date": "2026", "period": "Summer", "releaseYear": 2023, "predecessors": ["ant-man", "ant-man-wasp", "loki-s1", "civil-war", "endgame", "ms-marvel"], "note": "" },
+    { "id": "guardians-3", "title": "Guardians of The Galaxy Vol. 3", "type": "movie", "universe": "earth-199999", "date": "2026", "period": "Summer", "releaseYear": 2023, "predecessors": ["guardians-1", "guardians-2", "infinity-war", "endgame", "thor-love-thunder", "guardians-holiday-special"], "note": "" },
+    { "id": "agatha-all-along", "title": "Agatha All Along", "type": "series", "universe": "earth-199999", "date": "2026", "period": "Fall", "releaseYear": 2024, "predecessors": ["wandavision", "dr-strange-mom"], "note": "" },
+    { "id": "secret-invasion", "title": "Secret Invasion", "type": "series", "universe": "earth-199999", "date": "2026", "period": "November", "releaseYear": 2023, "predecessors": ["captain-marvel", "civil-war", "endgame", "far-from-home", "iron-man", "iron-man-2", "avengers", "cap-winter-soldier", "aou", "infinity-war"], "note": "" },
+    { "id": "the-marvels", "title": "The Marvels", "type": "movie", "universe": "earth-199999", "date": "2026", "period": "Fall", "releaseYear": 2023, "predecessors": ["ms-marvel", "captain-marvel", "wandavision", "secret-invasion", "endgame", "far-from-home", "xmen-2000", "x2", "xmen-last-stand", "xmen-dofp"], "note": "" },
+    { "id": "daredevil-born-again-s1-1-2", "title": "Daredevil: Born Again Season 1 (1-2)", "type": "series", "universe": "earth-199999", "date": "2026", "period": "2026", "releaseYear": 2025, "predecessors": ["daredevil-s1", "daredevil-s2", "daredevil-s3", "echo", "no-way-home", "hawkeye"], "note": "" },
+
+    { "id": "daredevil-born-again-s1-3-9", "title": "Daredevil: Born Again Season 1 (3-9)", "type": "series", "universe": "earth-199999", "date": "2027", "period": "2027", "releaseYear": 2025, "predecessors": ["daredevil-s1", "daredevil-s2", "daredevil-s3", "daredevil-born-again-s1-1-2", "echo", "no-way-home", "hawkeye", "ms-marvel", "punisher-s1", "punisher-s2"], "note": "" },
+    { "id": "cap-brave-new-world", "title": "Captain America: Brave New World", "type": "movie", "universe": "earth-199999", "date": "2027", "period": "April", "releaseYear": 2025, "predecessors": ["falcon-winter-soldier", "cap-winter-soldier", "civil-war", "infinity-war", "endgame", "incredible-hulk", "eternals", "black-widow"], "note": "" },
+    { "id": "wonder-man", "title": "Wonder Man Season 1", "type": "series", "universe": "earth-199999", "date": "2027", "period": "Spring", "releaseYear": 2025, "predecessors": ["iron-man-3", "shang-chi", "spiderman-homecoming", "no-way-home", "ms-marvel", "eternals"], "note": "Episode 4 is a flashback taking place between 2013-2017. The ending and epilogue of the series take place in Summer 2028." },
+    { "id": "thunderbolts", "title": "Thunderbolts*", "type": "movie", "universe": "earth-199999", "date": "2027", "period": "Fall", "releaseYear": 2025, "predecessors": ["cap-first-avenger", "cap-winter-soldier", "civil-war", "infinity-war", "endgame", "falcon-winter-soldier", "cap-brave-new-world", "avengers", "black-widow", "hawkeye", "ant-man-wasp", "wakanda-forever"], "note": "" },
+    { "id": "punisher-one-last-kill", "title": "The Punisher: One Last Kill", "type": "special", "universe": "earth-199999", "date": "2027", "period": "Summer", "releaseYear": 2026, "predecessors": ["daredevil-s2", "punisher-s1", "punisher-s2", "daredevil-born-again-s1-3-9"], "note": "" },
+    { "id": "daredevil-born-again-s2", "title": "Daredevil: Born Again Season 2", "type": "series", "universe": "earth-199999", "date": "2027", "period": "Fall", "releaseYear": 2026, "predecessors": ["daredevil-s1", "daredevil-s2", "daredevil-s3", "daredevil-born-again-s1-1-2", "daredevil-born-again-s1-3-9", "jessica-jones-s1", "jessica-jones-s2", "jessica-jones-s3", "luke-cage-s1", "luke-cage-s2", "the-defenders", "thunderbolts", "wakanda-forever"], "note": "" },
+
+    { "id": "spiderman-brand-new-day", "title": "Spider-Man: Brand New Day", "type": "movie", "universe": "earth-199999", "date": "2028", "period": "Summer", "releaseYear": 2026, "predecessors": ["civil-war", "spiderman-homecoming", "infinity-war", "endgame", "far-from-home", "no-way-home", "incredible-hulk", "avengers", "aou", "thor-ragnarok", "she-hulk", "daredevil-s2", "punisher-s1", "punisher-s2", "daredevil-born-again-s1-3-9", "punisher-one-last-kill", "thunderbolts"], "note": "" },
+    { "id": "avengers-doomsday", "title": "Avengers: Doomsday", "type": "movie", "universe": "earth-199999", "date": "2028", "period": "Fall", "releaseYear": 2026, "predecessors": ["avengers", "aou", "infinity-war", "endgame", "thor-love-thunder", "ff-first-steps", "cap-brave-new-world", "thunderbolts", "wakanda-forever", "ant-man-wasp-quantumania", "shang-chi", "the-marvels", "xmen-2000", "x2", "xmen-last-stand", "xmen-dofp", "loki-s1", "loki-s2", "deadpool-wolverine"], "note": "" },
+
+    { "id": "logan", "title": "Logan", "type": "movie", "universe": "earth-10005", "date": "2029", "period": "Summer", "releaseYear": 2017, "predecessors": ["the-wolverine", "xmen-dofp"], "note": "New timeline." },
+
+    { "id": "aos-s5-1-4", "title": "Marvel's Agents of S.H.I.E.L.D. Season 5 (1-4)", "type": "series", "universe": "shield", "date": "2091", "period": "December", "releaseYear": 2017, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22","aos-s2-1-2","aos-s2-3-6","aos-s2-7-10","aos-s2-11-18","aos-s2-19","aos-s2-20-22","aos-s3-1-10","aos-s3-11-18","aos-s3-19","aos-s3-20-22","aos-s4-1-8","aos-slingshot","aos-s4-9-22"], "note": "" },
+    { "id": "aos-s5-6-10", "title": "Marvel's Agents of S.H.I.E.L.D. Season 5 (6-10)", "type": "series", "universe": "shield", "date": "2091", "period": "December", "releaseYear": 2018, "predecessors": ["aos-s1-1-7","aos-s1-8-10","aos-s1-11-14","aos-s1-15-16","aos-s1-17-22","aos-s2-1-2","aos-s2-3-6","aos-s2-7-10","aos-s2-11-18","aos-s2-19","aos-s2-20-22","aos-s3-1-10","aos-s3-11-18","aos-s3-19","aos-s3-20-22","aos-s4-1-8","aos-slingshot","aos-s4-9-22","aos-s5-1-4","aos-s5-5"], "note": "" }
+  ]
+}

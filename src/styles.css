@@ -1,0 +1,328 @@
+/* ---------------------------------------------------------------------- */
+/* BASE                                                                     */
+/* ---------------------------------------------------------------------- */
+
+:root {
+  --bg: #0b0d12;
+  --text: #e5e7eb;
+  --text-dim: #9ca3af;
+  --text-faint: #6b7280;
+  --hairline: rgba(255, 255, 255, 0.08);
+  --hairline-strong: rgba(255, 255, 255, 0.14);
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 16px;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  color: var(--text-dim);
+}
+
+.page {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem;
+}
+
+.page-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin: 0 0 0.25rem;
+}
+
+.page-sub {
+  color: var(--text-faint);
+  font-size: 0.875rem;
+  margin: 0 0 2rem;
+  line-height: 1.6;
+}
+
+/* ---------------------------------------------------------------------- */
+/* ICONS — lucide-react renders plain <svg>, sized via its `size` prop      */
+/* ---------------------------------------------------------------------- */
+
+svg {
+  display: block;
+  flex-shrink: 0;
+}
+
+/* ---------------------------------------------------------------------- */
+/* FILTER PILLS                                                             */
+/* ---------------------------------------------------------------------- */
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.filters-row {
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.filters-row > .filters {
+  margin-bottom: 0;
+  flex: 1;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid var(--hairline-strong);
+  border-radius: 9999px;
+  background: transparent;
+  color: var(--text-dim);
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s, color 0.15s;
+}
+
+.pill:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.sort-toggle {
+  margin-left: auto;
+  color: var(--text);
+}
+
+/* ---------------------------------------------------------------------- */
+/* ENTRY LIST                                                               */
+/* ---------------------------------------------------------------------- */
+
+.entry-list,
+.era {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+
+.era-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 1.125rem 0 0.25rem;
+}
+
+.era:first-child .era-header {
+  margin-top: 0;
+}
+
+.era-header-label {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.8125rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+.era-header-rule {
+  flex: 1;
+  height: 1px;
+  background: var(--hairline);
+}
+
+.era-header-count {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  color: var(--text-faint);
+}
+
+.entry-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--hairline);
+  border-radius: 0.5rem;
+  background: transparent;
+  color: inherit;
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.entry-row:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: var(--hairline-strong);
+}
+
+.entry-date {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.25;
+  width: 6.5rem;
+  flex-shrink: 0;
+}
+
+.entry-type-icon {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.entry-title {
+  flex: 1;
+  font-size: 0.875rem;
+  color: #f3f4f6;
+}
+
+.entry-universe {
+  font-size: 0.6875rem;
+  padding: 0.125rem 0.5rem;
+  border-radius: 9999px;
+  flex-shrink: 0;
+}
+
+.empty-state {
+  color: var(--text-faint);
+  font-size: 0.875rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+@media (max-width: 640px) {
+  .entry-universe {
+    display: none;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+/* DETAIL VIEW                                                              */
+/* ---------------------------------------------------------------------- */
+
+.back-button {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--text-dim);
+  font-family: inherit;
+  font-size: 0.875rem;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  transition: color 0.15s;
+}
+
+.back-button:hover {
+  color: var(--text);
+}
+
+.detail-kicker {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.detail-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem 1.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  color: var(--text-dim);
+  margin: 0.75rem 0 1.25rem;
+}
+
+.universe-card {
+  border: 1px solid;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.universe-card-label {
+  font-weight: 600;
+}
+
+.universe-card-earth {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  color: var(--text-dim);
+}
+
+.universe-card-caption {
+  color: var(--text-dim);
+}
+
+.note-card {
+  border-left: 2px solid var(--hairline-strong);
+  padding: 0.125rem 0 0.125rem 1rem;
+  margin: 0 0 2rem;
+  color: #d1d5db;
+  font-size: 0.9375rem;
+  line-height: 1.65;
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #fff;
+  margin: 0 0 0.25rem;
+}
+
+.section-sub {
+  color: var(--text-faint);
+  font-size: 0.75rem;
+  line-height: 1.6;
+  margin: 0 0 1rem;
+}
+
+.graph-frame {
+  overflow-x: auto;
+  border: 1px solid var(--hairline);
+  border-radius: 0.5rem;
+}
+
+.graph-frame svg {
+  display: block;
+}
+
+.graph-node {
+  cursor: pointer;
+}
+
+.graph-node-root {
+  cursor: default;
+}
