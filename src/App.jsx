@@ -62,6 +62,7 @@ function prepare(raw) {
 
   return {
     universes: raw.universes || {},
+    universeGroups: raw.universeGroups || {},
     types: raw.types || {},
     entries,
     byId: Object.fromEntries(entries.map((e) => [e.id, e])),

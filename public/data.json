@@ -1,82 +1,103 @@
 {
+  "universeGroups": {
+    "mcu": "MCU",
+    "xmen": "X-Men (Fox)",
+    "spider-man": "Spider-Man",
+    "fantastic-four": "Fantastic Four",
+    "other": "Other"
+  },
+
   "universes": {
     "earth-199999": {
       "label": "MCU",
       "earth": "Earth-199999",
       "caption": "Marvel Cinematic Universe. Earth-199999, also called Earth-616 by the Baxter Foundation in Multiverse of Madness.",
-      "color": "#ffffff"
+      "color": "#ffffff",
+      "group": "mcu"
     },
     "shield": {
       "label": "Pseudo-MCU",
       "earth": "Earth-199999",
       "caption": "Shows that were supposed to be in the MCU but ended up only maybe being in the MCU.",
-      "color": "#767171"
+      "color": "#767171",
+      "group": "mcu"
     },
     "earth-10005": {
       "label": "X-Men (Fox)",
       "earth": "Earth-10005",
       "caption": "Fox's X-Men film series, spanning both its Original Timeline (pre-Days of Future Past) and the revised timeline that replaced it. The X-Men timeline is contradictory (and Deadpool does not help).",
-      "color": "#5b9ad5"
+      "color": "#5b9ad5",
+      "group": "xmen"
     },
     "earth-96283": {
       "label": "Spider-Man (Raimi)",
       "earth": "Earth-96283",
       "caption": "Sam Raimi's original Spider-Man trilogy, starring Tobey Maguire.",
-      "color": "#c00000"
+      "color": "#c00000",
+      "group": "spider-man"
     },
     "earth-120703": {
       "label": "The Amazing Spider-Man",
       "earth": "Earth-120703",
       "caption": "Marc Webb's The Amazing Spider-Man duology, starring Andrew Garfield.",
-      "color": "#ff0000"
+      "color": "#ff0000",
+      "group": "spider-man"
     },
     "earth-688b": {
       "label": "Sony's Spider-Man Universe",
       "earth": "Earth-688B",
       "caption": "Sony's movies about Spider-Man-adjacent villains.",
-      "color": "#7030a0"
+      "color": "#7030a0",
+      "group": "spider-man"
     },
     "spider-verse": {
       "label": "Spider-Verse",
       "earth": "Multiversal",
       "caption": "The animated, multiverse-hopping Spider-Man saga, starring Miles Morales and Gwen Stacy. Probably a different multiverse due to Earths 616 and 1610.",
-      "color": "#8a3434"
+      "color": "#8a3434",
+      "group": "spider-man"
     },
     "earth-trn1450": {
       "label": "Your Friendly Neighborhood Spider-Man",
       "earth": "Earth-TRN1450",
       "caption": "The animated Disney+ series following a Peter Parker accompanied by Norman Osborn instead of Tony Stark.",
-      "color": "#843434"
+      "color": "#843434",
+      "group": "spider-man"
     },
     "earth-121698": {
       "label": "Fantastic Four (2000s)",
       "earth": "Earth-121698",
       "caption": "The 2000s Fantastic Four film series, starring Ioan Gruffudd and Jessica Alba.",
-      "color": "#bf8f00"
+      "color": "#bf8f00",
+      "group": "fantastic-four"
     },
     "earth-15866": {
       "label": "Fantastic Four (2015)",
       "earth": "Earth-15866",
       "caption": "The 2015 Fantastic Four reboot, starring Miles Teller and Kate Mara.",
-      "color": "#ffc000"
+      "color": "#ffc000",
+      "group": "fantastic-four"
     },
     "earth-828": {
       "label": "The Fantastic Four: First Steps",
       "earth": "Earth-828",
       "caption": "Earth-828, featured in The Fantastic Four: First Steps.",
-      "color": "#ffd966"
+      "color": "#ffd966",
+      "group": "fantastic-four"
     },
     "earth-26320": {
       "label": "Blade Trilogy",
       "earth": "Earth-26320",
       "caption": "The Blade film series, starring Wesley Snipes.",
-      "color": "#404040"
+      "color": "#404040",
+      "group": "other"
     },
     "earth-701306": {
       "label": "Daredevil and Elektra",
       "earth": "Earth-701306",
       "caption": "The Daredevil and Elektra film series, starring Ben Affleck and Jennifer Garner.",
-      "color": "#990033"
+      "color": "#990033",
+      "group": "other"
     }
   },
 

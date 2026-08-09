@@ -1,5 +1,5 @@
-import { useMemo } from "react";
-import { ArrowUpDown } from "lucide-react";
+import { useMemo, useState } from "react";
+import { ArrowUpDown, Check, ChevronDown, Minus } from "lucide-react";
 import { TypeIcon } from "./icons.jsx";
 import { formatYear, groupByEra } from "./dates.js";
 
@@ -36,9 +36,21 @@ function Pill({ active, color, onClick, children }) {
   );
 }
 
+function GroupCheckbox({ state, onClick, label }) {
+  return (
+    <button type="button" className="group-check" onClick={onClick} aria-label={`Toggle ${label}`}>
+      <span className="group-check-box" data-state={state}>
+        {state === "all" && <Check size={11} strokeWidth={3} />}
+        {state === "some" && <Minus size={11} strokeWidth={3} />}
+      </span>
+    </button>
+  );
+}
+
 export default function ListView({ data, filters, onFiltersChange, onSelect }) {
-  const { universes, types, entries } = data;
+  const { universes, universeGroups: groupLabels, types, entries } = data;
   const { activeUniverses, activeTypes, sortMode } = filters;
+  const [universesOpen, setUniversesOpen] = useState(false);
 
   function toggle(field, key) {
     const next = new Set(filters[field]);
@@ -46,6 +58,31 @@ export default function ListView({ data, filters, onFiltersChange, onSelect }) {
     else next.add(key);
     onFiltersChange({ ...filters, [field]: next });
   }
+
+  function toggleGroup(keys) {
+    const next = new Set(activeUniverses);
+    const allActive = keys.every((k) => next.has(k));
+    for (const k of keys) {
+      if (allActive) next.delete(k);
+      else next.add(k);
+    }
+    onFiltersChange({ ...filters, activeUniverses: next });
+  }
+
+  // Groups come from each universe's `group` field, ordered by universeGroups'
+  // key order; a universe whose group isn't listed there still gets a group,
+  // appended after the known ones in the order it's first encountered.
+  const universeGroups = useMemo(() => {
+    const byGroup = new Map(Object.keys(groupLabels).map((id) => [id, []]));
+    for (const [key, u] of Object.entries(universes)) {
+      if (!byGroup.has(u.group)) byGroup.set(u.group, []);
+      byGroup.get(u.group).push(key);
+    }
+
+    return Array.from(byGroup.entries())
+      .filter(([, keys]) => keys.length)
+      .map(([id, keys]) => ({ id, label: groupLabels[id] || id, keys }));
+  }, [universes, groupLabels]);
 
   // The year an entry is placed by, given the active sort mode.
   const yearOf = useMemo(
@@ -80,18 +117,48 @@ export default function ListView({ data, filters, onFiltersChange, onSelect }) {
         dependencies
       </p>
 
-      <div className="filters">
-        {Object.entries(universes).map(([key, u]) => (
-          <Pill
-            key={key}
-            color={u.color}
-            active={activeUniverses.has(key)}
-            onClick={() => toggle("activeUniverses", key)}
-          >
-            {u.label}
-          </Pill>
-        ))}
-      </div>
+      <button
+        type="button"
+        className="pill universes-toggle"
+        onClick={() => setUniversesOpen((v) => !v)}
+      >
+        Universes
+        <ChevronDown
+          size={14}
+          style={{
+            transform: universesOpen ? "rotate(180deg)" : undefined,
+            transition: "transform 0.15s",
+          }}
+        />
+      </button>
+
+      {universesOpen && (
+        <div className="universe-groups">
+          {universeGroups.map((g) => {
+            const activeCount = g.keys.filter((k) => activeUniverses.has(k)).length;
+            const state =
+              activeCount === 0 ? "none" : activeCount === g.keys.length ? "all" : "some";
+
+            return (
+              <div key={g.id} className="universe-group">
+                <GroupCheckbox state={state} label={g.label} onClick={() => toggleGroup(g.keys)} />
+                <div className="filters group-pills">
+                  {g.keys.map((key) => (
+                    <Pill
+                      key={key}
+                      color={universes[key].color}
+                      active={activeUniverses.has(key)}
+                      onClick={() => toggle("activeUniverses", key)}
+                    >
+                      {universes[key].label}
+                    </Pill>
+                  ))}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      )}
 
       <div className="filters filters-row">
         <div className="filters">

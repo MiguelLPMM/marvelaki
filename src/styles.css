@@ -113,6 +113,66 @@ svg {
   color: var(--text);
 }
 
+.universes-toggle {
+  margin-bottom: 0.75rem;
+}
+
+.universe-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  margin-bottom: 1.5rem;
+}
+
+.universe-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.universe-group .group-pills {
+  margin-bottom: 0;
+  flex: 1;
+}
+
+.group-check {
+  display: inline-flex;
+  align-items: center;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.group-check-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.125rem;
+  height: 1.125rem;
+  flex-shrink: 0;
+  border: 1px solid var(--hairline-strong);
+  border-radius: 0.3125rem;
+  color: var(--bg);
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.group-check:hover .group-check-box {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.group-check-box[data-state="all"] {
+  background: var(--text);
+  border-color: var(--text);
+}
+
+.group-check-box[data-state="some"] {
+  background: transparent;
+  border-color: var(--text);
+  color: var(--text);
+}
+
 /* ---------------------------------------------------------------------- */
 /* ENTRY LIST                                                               */
 /* ---------------------------------------------------------------------- */
