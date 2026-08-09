@@ -6,6 +6,12 @@
       "caption": "Marvel Cinematic Universe. Earth-199999, also called Earth-616 by the Baxter Foundation in Multiverse of Madness.",
       "color": "#ffffff"
     },
+    "earth-26320": {
+      "label": "Blade Trilogy",
+      "earth": "Earth-26320",
+      "caption": "The Blade film series, starring Wesley Snipes.",
+      "color": "#404040"
+    },
     "earth-10005": {
       "label": "X-Men (Fox)",
       "earth": "Earth-10005",
@@ -114,7 +120,9 @@
     { "id": "what-if-s3-3", "title": "What If...? Season 3 (3)", "type": "series", "universe": "earth-199999", "date": "1991", "period": "Multiverse", "releaseYear": 2024, "predecessors": ["loki-s1", "civil-war", "black-widow", "iron-man", "ant-man-wasp"], "note": "" },
     { "id": "xmen-dark-phoenix", "title": "X-Men: Dark Phoenix", "type": "movie", "universe": "earth-10005", "date": "1992", "period": "May", "releaseYear": 2019, "predecessors": ["xmen-first-class", "xmen-dofp", "xmen-apocalypse"], "note": "New timeline." },
     { "id": "captain-marvel", "title": "Captain Marvel", "type": "movie", "universe": "earth-199999", "date": "1995", "period": "June", "releaseYear": 2019, "predecessors": [], "note": "Post-credits scene after Infinity War." },
+    { "id": "blade", "title": "Blade", "type": "movie", "universe": "earth-26320", "date": "1998", "period": "April", "releaseYear": 1998, "predecessors": [], "note": "" },
 
+    { "id": "blade-ii", "title": "Blade II", "type": "movie", "universe": "earth-26320", "date": "2000", "period": "April", "releaseYear": 2002, "predecessors": ["blade"], "note": "" },
     { "id": "xmen-2000", "title": "X-Men", "type": "movie", "universe": "earth-10005", "date": "2000", "period": "Fall", "releaseYear": 2000, "predecessors": ["xmen-first-class"], "note": "Original timeline." },
 
     { "id": "spiderman-raimi", "title": "Spider-Man", "type": "movie", "universe": "earth-96283", "date": "2002", "period": "2002", "releaseYear": 2002, "predecessors": [], "note": "" },
@@ -127,6 +135,8 @@
     { "id": "fantastic-four-2005", "title": "Fantastic Four", "type": "movie", "universe": "earth-121698", "date": "2005", "period": "Summer", "releaseYear": 2005, "predecessors": [], "note": "" },
     { "id": "spiderman-raimi-3", "title": "Spider-Man 3", "type": "movie", "universe": "earth-96283", "date": "2005", "period": "Summer", "releaseYear": 2007, "predecessors": ["spiderman-raimi", "spiderman-raimi-2"], "note": "" },
 
+    { "id": "blade-trinity", "title": "Blade Trinity", "type": "movie", "universe": "earth-26320", "date": "2006", "period": "May", "releaseYear": 2004, "predecessors": ["blade", "blade-ii"], "note": "" },
+    { "id": "blade-series", "title": "Blade: The Series", "type": "series", "universe": "earth-26320", "date": "2006", "period": "Summer", "releaseYear": 2006, "predecessors": ["blade", "blade-ii", "blade-trinity"], "note": "" },
     { "id": "xmen-last-stand", "title": "X-Men: The Last Stand", "type": "movie", "universe": "earth-10005", "date": "2006", "period": "Spring", "releaseYear": 2006, "predecessors": ["xmen-2000", "x2"], "note": "Original timeline." },
 
     { "id": "fantastic-four-silver-surfer", "title": "Fantastic Four: Rise of the Silver Surfer", "type": "movie", "universe": "earth-121698", "date": "2007", "period": "Summer", "releaseYear": 2007, "predecessors": ["fantastic-four-2005"], "note": "" },
@@ -247,7 +257,7 @@
     { "id": "falcon-winter-soldier", "title": "The Falcon and The Winter Soldier", "type": "series", "universe": "earth-199999", "date": "2024", "period": "Spring", "releaseYear": 2021, "predecessors": ["cap-first-avenger", "cap-winter-soldier", "civil-war", "endgame", "black-panther"], "note": "" },
     { "id": "far-from-home", "title": "Spider-Man: Far From Home", "type": "movie", "universe": "earth-199999", "date": "2024", "period": "Summer", "releaseYear": 2019, "predecessors": ["endgame", "infinity-war", "civil-war", "spiderman-homecoming", "captain-marvel", "iron-man", "iron-man-2", "avengers", "cap-winter-soldier", "aou"], "note": "" },
     { "id": "eternals", "title": "Eternals", "type": "movie", "universe": "earth-199999", "date": "2024", "period": "Fall", "releaseYear": 2021, "predecessors": ["infinity-war", "endgame"], "note": "" },
-    { "id": "deadpool-wolverine", "title": "Deadpool & Wolverine", "type": "movie", "universe": "earth-10005", "date": "2024", "period": "October", "releaseYear": 2024, "predecessors": ["deadpool", "deadpool-2", "loki-s1", "loki-s2", "xmen-2000", "x2", "xmen-last-stand"], "note": "Starts in 2018 after Deadpool 2. Features the MCU, the TVA, and The Void." },
+    { "id": "deadpool-wolverine", "title": "Deadpool & Wolverine", "type": "movie", "universe": "earth-10005", "date": "2024", "period": "October", "releaseYear": 2024, "predecessors": ["deadpool", "deadpool-2", "loki-s1", "loki-s2", "xmen-2000", "x2", "xmen-last-stand", "blade", "blade-ii", "blade-trinity"], "note": "Starts in 2018 after Deadpool 2. Features the MCU, the TVA, and The Void." },
     { "id": "no-way-home", "title": "Spider-Man: No Way Home", "type": "movie", "universe": "earth-199999", "date": "2024", "period": "Fall", "releaseYear": 2021, "predecessors": ["spiderman-homecoming", "far-from-home", "infinity-war", "endgame", "doctor-strange", "spiderman-raimi", "spiderman-raimi-2", "spiderman-raimi-3", "amazing-spiderman", "amazing-spiderman-2", "daredevil-s1", "daredevil-s2", "daredevil-s3"], "note": "" },
     { "id": "dr-strange-mom", "title": "Doctor Strange in the Multiverse of Madness", "type": "movie", "universe": "earth-199999", "date": "2024", "period": "November", "releaseYear": 2022, "predecessors": ["doctor-strange", "no-way-home", "wandavision", "infinity-war", "endgame", "xmen-2000", "x2", "xmen-last-stand", "xmen-dofp", "inhumans", "captain-marvel", "what-if-s1-1"], "note": "" },
     { "id": "kraven", "title": "Kraven the Hunter", "type": "movie", "universe": "earth-688b", "date": "2024", "period": "Fall", "releaseYear": 2024, "predecessors": [], "note": "" },
