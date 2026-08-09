@@ -6,11 +6,11 @@
       "caption": "Marvel Cinematic Universe. Earth-199999, also called Earth-616 by the Baxter Foundation in Multiverse of Madness.",
       "color": "#ffffff"
     },
-    "earth-26320": {
-      "label": "Blade Trilogy",
-      "earth": "Earth-26320",
-      "caption": "The Blade film series, starring Wesley Snipes.",
-      "color": "#404040"
+    "shield": {
+      "label": "Pseudo-MCU",
+      "earth": "Earth-199999",
+      "caption": "Shows that were supposed to be in the MCU but ended up only maybe being in the MCU.",
+      "color": "#767171"
     },
     "earth-10005": {
       "label": "X-Men (Fox)",
@@ -18,29 +18,11 @@
       "caption": "Fox's X-Men film series, spanning both its Original Timeline (pre-Days of Future Past) and the revised timeline that replaced it. The X-Men timeline is contradictory (and Deadpool does not help).",
       "color": "#5b9ad5"
     },
-    "earth-828": {
-      "label": "The Fantastic Four: First Steps",
-      "earth": "Earth-828",
-      "caption": "Earth-828, featured in The Fantastic Four: First Steps.",
-      "color": "#ffd966"
-    },
     "earth-96283": {
       "label": "Spider-Man (Raimi)",
       "earth": "Earth-96283",
       "caption": "Sam Raimi's original Spider-Man trilogy, starring Tobey Maguire.",
       "color": "#c00000"
-    },
-    "earth-688b": {
-      "label": "Sony's Spider-Man Universe",
-      "earth": "Earth-688B",
-      "caption": "Sony's movies about Spider-Man-adjacent villains.",
-      "color": "#7030a0"
-    },
-    "earth-121698": {
-      "label": "Fantastic Four (2000s)",
-      "earth": "Earth-121698",
-      "caption": "The 2000s Fantastic Four film series, starring Ioan Gruffudd and Jessica Alba.",
-      "color": "#bf8f00"
     },
     "earth-120703": {
       "label": "The Amazing Spider-Man",
@@ -48,17 +30,17 @@
       "caption": "Marc Webb's The Amazing Spider-Man duology, starring Andrew Garfield.",
       "color": "#ff0000"
     },
-    "shield": {
-      "label": "Pseudo-MCU",
-      "earth": "Earth-199999",
-      "caption": "Shows that were supposed to be in the MCU but ended up only maybe being in the MCU.",
-      "color": "#767171"
+    "earth-688b": {
+      "label": "Sony's Spider-Man Universe",
+      "earth": "Earth-688B",
+      "caption": "Sony's movies about Spider-Man-adjacent villains.",
+      "color": "#7030a0"
     },
-    "earth-15866": {
-      "label": "Fantastic Four (2015)",
-      "earth": "Earth-15866",
-      "caption": "The 2015 Fantastic Four reboot, starring Miles Teller and Kate Mara.",
-      "color": "#ffc000"
+    "spider-verse": {
+      "label": "Spider-Verse",
+      "earth": "Multiversal",
+      "caption": "The animated, multiverse-hopping Spider-Man saga, starring Miles Morales and Gwen Stacy. Probably a different multiverse due to Earths 616 and 1610.",
+      "color": "#8a3434"
     },
     "earth-trn1450": {
       "label": "Your Friendly Neighborhood Spider-Man",
@@ -66,11 +48,35 @@
       "caption": "The animated Disney+ series following a Peter Parker accompanied by Norman Osborn instead of Tony Stark.",
       "color": "#843434"
     },
-    "spider-verse": {
-      "label": "Spider-Verse",
-      "earth": "Multiversal",
-      "caption": "The animated, multiverse-hopping Spider-Man saga, starring Miles Morales and Gwen Stacy. Probably a different multiverse due to Earths 616 and 1610.",
-      "color": "#8a3434"
+    "earth-121698": {
+      "label": "Fantastic Four (2000s)",
+      "earth": "Earth-121698",
+      "caption": "The 2000s Fantastic Four film series, starring Ioan Gruffudd and Jessica Alba.",
+      "color": "#bf8f00"
+    },
+    "earth-15866": {
+      "label": "Fantastic Four (2015)",
+      "earth": "Earth-15866",
+      "caption": "The 2015 Fantastic Four reboot, starring Miles Teller and Kate Mara.",
+      "color": "#ffc000"
+    },
+    "earth-828": {
+      "label": "The Fantastic Four: First Steps",
+      "earth": "Earth-828",
+      "caption": "Earth-828, featured in The Fantastic Four: First Steps.",
+      "color": "#ffd966"
+    },
+    "earth-26320": {
+      "label": "Blade Trilogy",
+      "earth": "Earth-26320",
+      "caption": "The Blade film series, starring Wesley Snipes.",
+      "color": "#404040"
+    },
+    "earth-701306": {
+      "label": "Daredevil and Elektra",
+      "earth": "Earth-701306",
+      "caption": "The Daredevil and Elektra film series, starring Ben Affleck and Jennifer Garner.",
+      "color": "#990033"
     }
   },
 
@@ -127,6 +133,7 @@
 
     { "id": "spiderman-raimi", "title": "Spider-Man", "type": "movie", "universe": "earth-96283", "date": "2002", "period": "2002", "releaseYear": 2002, "predecessors": [], "note": "" },
 
+    { "id": "daredevil", "title": "Daredevil", "type": "movie", "universe": "earth-701306", "date": "2003", "period": "August", "releaseYear": 2003, "predecessors": [], "note": "" },
     { "id": "x2", "title": "X2: X-Men United", "type": "movie", "universe": "earth-10005", "date": "2003", "period": "Fall", "releaseYear": 2003, "predecessors": ["xmen-2000"], "note": "Original timeline." },
     { "id": "madame-web", "title": "Madame Web", "type": "movie", "universe": "earth-688b", "date": "2003", "period": "June", "releaseYear": 2024, "predecessors": [], "note": "" },
 
@@ -134,6 +141,7 @@
 
     { "id": "fantastic-four-2005", "title": "Fantastic Four", "type": "movie", "universe": "earth-121698", "date": "2005", "period": "Summer", "releaseYear": 2005, "predecessors": [], "note": "" },
     { "id": "spiderman-raimi-3", "title": "Spider-Man 3", "type": "movie", "universe": "earth-96283", "date": "2005", "period": "Summer", "releaseYear": 2007, "predecessors": ["spiderman-raimi", "spiderman-raimi-2"], "note": "" },
+    { "id": "elektra", "title": "Elektra", "type": "movie", "universe": "earth-701306", "date": "2005", "period": "December", "releaseYear": 2005, "predecessors": ["daredevil"], "note": "" },
 
     { "id": "blade-trinity", "title": "Blade Trinity", "type": "movie", "universe": "earth-26320", "date": "2006", "period": "May", "releaseYear": 2004, "predecessors": ["blade", "blade-ii"], "note": "" },
     { "id": "blade-series", "title": "Blade: The Series", "type": "series", "universe": "earth-26320", "date": "2006", "period": "Summer", "releaseYear": 2006, "predecessors": ["blade", "blade-ii", "blade-trinity"], "note": "" },
@@ -257,7 +265,7 @@
     { "id": "falcon-winter-soldier", "title": "The Falcon and The Winter Soldier", "type": "series", "universe": "earth-199999", "date": "2024", "period": "Spring", "releaseYear": 2021, "predecessors": ["cap-first-avenger", "cap-winter-soldier", "civil-war", "endgame", "black-panther"], "note": "" },
     { "id": "far-from-home", "title": "Spider-Man: Far From Home", "type": "movie", "universe": "earth-199999", "date": "2024", "period": "Summer", "releaseYear": 2019, "predecessors": ["endgame", "infinity-war", "civil-war", "spiderman-homecoming", "captain-marvel", "iron-man", "iron-man-2", "avengers", "cap-winter-soldier", "aou"], "note": "" },
     { "id": "eternals", "title": "Eternals", "type": "movie", "universe": "earth-199999", "date": "2024", "period": "Fall", "releaseYear": 2021, "predecessors": ["infinity-war", "endgame"], "note": "" },
-    { "id": "deadpool-wolverine", "title": "Deadpool & Wolverine", "type": "movie", "universe": "earth-10005", "date": "2024", "period": "October", "releaseYear": 2024, "predecessors": ["deadpool", "deadpool-2", "loki-s1", "loki-s2", "xmen-2000", "x2", "xmen-last-stand", "blade", "blade-ii", "blade-trinity"], "note": "Starts in 2018 after Deadpool 2. Features the MCU, the TVA, and The Void." },
+    { "id": "deadpool-wolverine", "title": "Deadpool & Wolverine", "type": "movie", "universe": "earth-10005", "date": "2024", "period": "October", "releaseYear": 2024, "predecessors": ["deadpool", "deadpool-2", "loki-s1", "loki-s2", "xmen-2000", "x2", "xmen-last-stand", "blade", "blade-ii", "blade-trinity", "elektra"], "note": "Starts in 2018 after Deadpool 2. Features the MCU, the TVA, and The Void." },
     { "id": "no-way-home", "title": "Spider-Man: No Way Home", "type": "movie", "universe": "earth-199999", "date": "2024", "period": "Fall", "releaseYear": 2021, "predecessors": ["spiderman-homecoming", "far-from-home", "infinity-war", "endgame", "doctor-strange", "spiderman-raimi", "spiderman-raimi-2", "spiderman-raimi-3", "amazing-spiderman", "amazing-spiderman-2", "daredevil-s1", "daredevil-s2", "daredevil-s3"], "note": "" },
     { "id": "dr-strange-mom", "title": "Doctor Strange in the Multiverse of Madness", "type": "movie", "universe": "earth-199999", "date": "2024", "period": "November", "releaseYear": 2022, "predecessors": ["doctor-strange", "no-way-home", "wandavision", "infinity-war", "endgame", "xmen-2000", "x2", "xmen-last-stand", "xmen-dofp", "inhumans", "captain-marvel", "what-if-s1-1"], "note": "" },
     { "id": "kraven", "title": "Kraven the Hunter", "type": "movie", "universe": "earth-688b", "date": "2024", "period": "Fall", "releaseYear": 2024, "predecessors": [], "note": "" },
