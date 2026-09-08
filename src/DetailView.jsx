@@ -3,6 +3,7 @@ import { ArrowLeft } from "lucide-react";
 import { TypeIcon } from "./icons.jsx";
 import { formatYear } from "./dates.js";
 import { buildAncestorGraph } from "./graph.js";
+import { buildTimelineBranch } from "./lightning.js";
 
 export default function DetailView({ data, id, onBack, onSelect }) {
   const { universes, types, byId } = data;
@@ -79,10 +80,15 @@ export default function DetailView({ data, id, onBack, onSelect }) {
             height={graph.height}
             style={{ display: "block", minWidth: graph.width }}
           >
+            <defs>
+              <filter id="timeline-glow" x="-80%" y="-80%" width="260%" height="260%">
+                <feGaussianBlur stdDeviation="2.6" />
+              </filter>
+            </defs>
+
             {graph.edges.map(([from, to], i) => {
               const a = graph.positions[from];
               const b = graph.positions[to];
-              const midX = (a.x + b.x) / 2;
               const ay = a.y + a.height / 2;
               const by = b.y + b.height / 2;
               // An edge is "featured" only when both ends are the root or one
@@ -92,15 +98,20 @@ export default function DetailView({ data, id, onBack, onSelect }) {
               const featured =
                 (from === id || graph.directPredecessors.has(from)) &&
                 (to === id || graph.directPredecessors.has(to));
+              const d = buildTimelineBranch(a.x + a.width, ay, b.x, by, `${from}->${to}`);
               return (
-                <path
-                  key={i}
-                  d={`M ${a.x + a.width} ${ay} C ${midX} ${ay}, ${midX} ${by}, ${b.x} ${by}`}
-                  fill="none"
-                  stroke="rgba(255,255,255,0.18)"
-                  strokeWidth={1.5}
-                  opacity={featured ? 1 : 0.25}
-                />
+                <g key={i} opacity={featured ? 1 : 0.25}>
+                  <path
+                    d={d}
+                    fill="none"
+                    stroke="#7cb3ff"
+                    strokeWidth={5}
+                    strokeLinecap="round"
+                    opacity={0.35}
+                    filter="url(#timeline-glow)"
+                  />
+                  <path d={d} fill="none" stroke="#dbeeff" strokeWidth={1.3} strokeLinecap="round" />
+                </g>
               );
             })}
 
